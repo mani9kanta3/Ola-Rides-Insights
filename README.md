@@ -130,7 +130,7 @@ Implemented directly in SQL (see [`sql/final_queries.sql`](sql/ola_insights.sql)
 ![Overall Dashboard](powerbi/screenshots/Overall.png)
 
 ### Vehicle Type Analysis
-![Vehicle Type Dashboard](powerbi/screenshots/Vehicle-Type.png)
+![Vehicle Type Dashboard](powerbi/screenshots/Vehicle Type.png)
 
 ### Revenue Analysis
 ![Revenue Dashboard](powerbi/screenshots/Revenue.png)
