@@ -126,20 +126,20 @@ Implemented directly in SQL (see [`sql/final_queries.sql`](sql/ola_insights.sql)
 
 ## Dashboard Screenshots
 
-### Overall
+### Overview Dashboard
 ![Overall Dashboard](powerbi/screenshots/Overall.png)
 
 ### Vehicle Type Analysis
-![Vehicle Type Dashboard](<img width="951" height="529" alt="Vehicle Type" src="https://github.com/user-attachments/assets/95f12ca2-6b2a-41b4-8be0-f2493f72353c" />)
+![Vehicle Type Dashboard](powerbi/screenshots/Vehicle-Type.png)
 
 ### Revenue Analysis
-![Revenue Dashboard](<img width="952" height="531" alt="Revenue" src="https://github.com/user-attachments/assets/e40a4e86-1c38-4255-94d7-3427722164c4" />)
+![Revenue Dashboard](powerbi/screenshots/Revenue.png)
 
 ### Cancellation Analysis
-![Cancellation Dashboard](<img width="952" height="530" alt="Cancellation" src="https://github.com/user-attachments/assets/5c186bc7-ba79-4142-9539-342740cdc344" />)
+![Cancellation Dashboard](powerbi/screenshots/Cancellation.png)
 
 ### Ratings Analysis
-![Ratings Dashboard](<img width="951" height="529" alt="Ratings" src="https://github.com/user-attachments/assets/bfb1a66b-7750-4fc8-9e08-54b412d62555" />)
+![Ratings Dashboard](powerbi/screenshots/Ratings.png)
 
 
 > 💡 **Embedding Note**: Power BI requires a Pro license to embed dashboards.  
