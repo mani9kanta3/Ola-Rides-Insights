@@ -1,11 +1,13 @@
+import os
 import pandas as pd
 from sqlalchemy import create_engine
 
 def get_engine():
-    engine = create_engine(
-        "postgresql+psycopg2://postgres:Manikanta%403@localhost:5432/ola_analytics"
-    )
-    return engine
+    db_url = os.environ.get("DATABASE_URL")
+    if not db_url:
+        raise ValueError("DATABASE_URL environment variable not set")
+
+    return create_engine(db_url)
 
 def run_query(query):
     engine = get_engine()
