@@ -127,7 +127,7 @@ Implemented directly in SQL (see [`sql/final_queries.sql`](sql/ola_insights.sql)
 ## Dashboard Screenshots
 
 ### Overall
-![Overall Dashboard](<img width="952" height="529" alt="Overall" src="https://github.com/user-attachments/assets/42100bb1-35f5-4a96-be53-4d2d128c1f9a" />)
+![Overall Dashboard](powerbi/screenshots/Overall.png)
 
 ### Vehicle Type Analysis
 ![Vehicle Type Dashboard](<img width="951" height="529" alt="Vehicle Type" src="https://github.com/user-attachments/assets/95f12ca2-6b2a-41b4-8be0-f2493f72353c" />)
