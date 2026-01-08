@@ -130,7 +130,7 @@ Implemented directly in SQL (see [`sql/final_queries.sql`](sql/ola_insights.sql)
 ![Overall Dashboard](powerbi/screenshots/Overall.png)
 
 ### Vehicle Type Analysis
-![Vehicle Type Dashboard]([powerbi/screenshots/Vehicle Type.png](https://github.com/mani9kanta3/Ola-Rides-Insights/blob/main/powerbi/screenshots/Vehicle%20Type.png))
+![Vehicle Type Dashboard](powerbi/screenshots/Vehicle_type.png)
 
 ### Revenue Analysis
 ![Revenue Dashboard](powerbi/screenshots/Revenue.png)
@@ -145,13 +145,13 @@ Implemented directly in SQL (see [`sql/final_queries.sql`](sql/ola_insights.sql)
 > 💡 **Embedding Note**: Power BI requires a Pro license to embed dashboards.  
 > With a Free license, only a link is provided.
 
-🔗 **Power BI Report Link**: *(replace with your actual dashboard URL)*
+🔗 **Power BI Report Link**: *https://app.powerbi.com/groups/me/reports/0c1d285f-a7d4-432d-9e74-563b8a90ea50?ctid=796f3340-f548-402e-bb41-feb978a0938d&pbi_source=linkShare&bookmarkGuid=98b6132f-173b-4916-9e82-51e53cabc15d*
 
 ---
 
 ## 🌐 Streamlit App
 
-🧪 **Live Demo**: [https://ola-analytics-demo.streamlit.app](https://ola-analytics-demo.streamlit.app) *(replace if needed)*
+🧪 **Live Demo**: [https://ola-rides-insights-mani.streamlit.app/](https://ola-rides-insights-mani.streamlit.app/)
 
 ### Features:
 
