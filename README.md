@@ -99,7 +99,7 @@ This project answers key questions:
 
 ## 🧠 SQL Business Logic (PostgreSQL)
 
-Implemented directly in SQL (see [`sql/final_queries.sql`](sql/final_queries.sql)):
+Implemented directly in SQL (see [`sql/final_queries.sql`](sql/ola_insights.sql)):
 
 - Successful bookings list  
 - Average ride distance by vehicle type  
@@ -124,12 +124,23 @@ Implemented directly in SQL (see [`sql/final_queries.sql`](sql/final_queries.sql
 4. **Cancellation** – Reasons split by customer vs driver  
 5. **Ratings** – Quality assessment by vehicle type  
 
-📁 Add screenshots in `screenshots/` folder:
-- `01_overall.png`
-- `02_vehicle_type.png`
-- `03_revenue.png`
-- `04_cancellation.png`
-- `05_ratings.png`
+## Dashboard Screenshots
+
+### Overall
+![Overall Dashboard](<img width="952" height="529" alt="Overall" src="https://github.com/user-attachments/assets/42100bb1-35f5-4a96-be53-4d2d128c1f9a" />)
+
+### Vehicle Type Analysis
+![Vehicle Type Dashboard](<img width="951" height="529" alt="Vehicle Type" src="https://github.com/user-attachments/assets/95f12ca2-6b2a-41b4-8be0-f2493f72353c" />)
+
+### Revenue Analysis
+![Revenue Dashboard](<img width="952" height="531" alt="Revenue" src="https://github.com/user-attachments/assets/e40a4e86-1c38-4255-94d7-3427722164c4" />)
+
+### Cancellation Analysis
+![Cancellation Dashboard](<img width="952" height="530" alt="Cancellation" src="https://github.com/user-attachments/assets/5c186bc7-ba79-4142-9539-342740cdc344" />)
+
+### Ratings Analysis
+![Ratings Dashboard](<img width="951" height="529" alt="Ratings" src="https://github.com/user-attachments/assets/bfb1a66b-7750-4fc8-9e08-54b412d62555" />)
+
 
 > 💡 **Embedding Note**: Power BI requires a Pro license to embed dashboards.  
 > With a Free license, only a link is provided.
@@ -231,7 +242,7 @@ Failures are categorized as:
 | Component            | Location                     |
 |---------------------|------------------------------|
 | Clean Database       | PostgreSQL (`rides` table)   |
-| SQL Queries          | `sql/final_queries.sql`      |
+| SQL Queries          | `ola_insights.sql`      |
 | Power BI Dashboard   | 5 structured report pages    |
 | Streamlit App        | `app/app.py`, `app/db.py`    |
 | Documentation        | `README.md`, metrics docs    |
